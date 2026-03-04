@@ -1,0 +1,25 @@
+<div class="container d-flex justify-content-center align-items-center vh-100">
+    <div class="card shadow-lg p-4" style="width: 350px;">
+      <h3 class="text-center mb-4 text-primary">Stock Trade Login</h3>
+  
+      <div class="mb-3">
+        <label class="form-label">Username</label>
+        <input [(ngModel)]="username"
+               class="form-control"
+               placeholder="Enter username">
+      </div>
+  
+      <div class="mb-3">
+        <label class="form-label">Password</label>
+        <input [(ngModel)]="password"
+               type="password"
+               class="form-control"
+               placeholder="Enter password">
+      </div>
+  
+      <button class="btn btn-primary w-100"
+              (click)="login()">
+        Login
+      </button>
+    </div>
+  </div>
