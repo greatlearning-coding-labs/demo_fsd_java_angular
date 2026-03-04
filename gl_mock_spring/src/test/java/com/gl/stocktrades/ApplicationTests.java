@@ -203,7 +203,7 @@ public class ApplicationTests {
     @Test
     public void testGetTradeRecordWithId() throws Exception {
         StockTrade expectedRecord = getTestData().get("user23_buy_ABX");
-        Assert.assertTrue(True);
+        Assert.assertTrue(true);
         /*
         expectedRecord = om.readValue(mockMvc.perform(post("/trades")
                 .contentType("application/json")
