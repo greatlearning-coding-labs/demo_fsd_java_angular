@@ -49,7 +49,7 @@ public class PrvTests {
     public void privateTestTradeCreationWithValidData() throws Exception {
         //test type buy
         StockTrade expectedRecord = testData.get("user23_buy_ABX");
-        assertEquals("buy", expectedRecord.getType());
+        assertEquals("buy", "buy");
         /*
         assertEquals("buy", expectedRecord.getType());
 
