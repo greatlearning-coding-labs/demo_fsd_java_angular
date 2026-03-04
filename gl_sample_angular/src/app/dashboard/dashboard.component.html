@@ -1,0 +1,48 @@
+<div class="container mt-5">
+
+  <div class="d-flex justify-content-between align-items-center mb-4">
+    <h2 class="text-primary">Stock Trades</h2>
+    <button class="btn btn-danger" (click)="logout()">Logout</button>
+  </div>
+
+  <div class="card shadow">
+    <div class="card-body">
+
+      <table class="table table-striped table-hover">
+        <thead class="table-dark">
+          <tr>
+            <th>ID</th>
+            <th>Type</th>
+            <th>Symbol</th>
+            <th>Shares</th>
+            <th>Price</th>
+            <th>Action</th>
+          </tr>
+        </thead>
+
+        <tbody>
+          <tr *ngFor="let stock of stocks">
+            <td>{{stock.id}}</td>
+            <td>
+              <span class="badge"
+                [ngClass]="stock.type === 'BUY' ? 'bg-success' : 'bg-warning'">
+                {{stock.type}}
+              </span>
+            </td>
+            <td>{{stock.symbol}}</td>
+            <td>{{stock.shares}}</td>
+            <td>₹ {{stock.price}}</td>
+            <td>
+              <button class="btn btn-sm btn-danger"
+                      (click)="delete(stock.id)">
+                Delete
+              </button>
+            </td>
+          </tr>
+        </tbody>
+
+      </table>
+
+    </div>
+  </div>
+</div>
