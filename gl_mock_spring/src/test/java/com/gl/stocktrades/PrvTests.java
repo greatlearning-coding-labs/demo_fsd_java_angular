@@ -1,9 +1,9 @@
-package com.hackerrank.stocktrades;
+package com.gl.stocktrades;
 
 import com.fasterxml.jackson.core.type.TypeReference;
 import com.fasterxml.jackson.databind.ObjectMapper;
-import com.hackerrank.stocktrades.model.StockTrade;
-import com.hackerrank.stocktrades.repository.StockTradeRepository;
+import com.gl.stocktrades.model.StockTrade;
+import com.gl.stocktrades.repository.StockTradeRepository;
 import org.junit.Assert;
 import org.junit.Before;
 import org.junit.Test;
