@@ -1,4 +1,4 @@
-package com.hackerrank.stocktrades.validation;
+package com.gl.stocktrades.validation;
 
 import org.springframework.http.HttpHeaders;
 import org.springframework.http.HttpStatus;
