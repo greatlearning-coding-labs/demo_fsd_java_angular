@@ -1,8 +1,8 @@
-package com.hackerrank.stocktrades.repository;
+package com.gl.stocktrades.repository;
 
 import java.util.List;
 
-import com.hackerrank.stocktrades.model.StockTrade;
+import com.gl.stocktrades.model.StockTrade;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Repository;
 
