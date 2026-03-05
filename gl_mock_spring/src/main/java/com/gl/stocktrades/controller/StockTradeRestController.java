@@ -1,11 +1,11 @@
-package com.hackerrank.stocktrades.controller;
+package com.gl.stocktrades.controller;
 
 import java.util.Arrays;
 import java.util.List;
 import java.util.Optional;
 
-import com.hackerrank.stocktrades.model.StockTrade;
-import com.hackerrank.stocktrades.service.StockTradeService;
+import com.gl.stocktrades.model.StockTrade;
+import com.gl.stocktrades.service.StockTradeService;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.ResponseEntity;
