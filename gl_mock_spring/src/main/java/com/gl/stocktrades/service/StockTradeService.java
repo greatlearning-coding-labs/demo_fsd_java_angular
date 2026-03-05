@@ -1,10 +1,10 @@
-package com.hackerrank.stocktrades.service;
+package com.gl.stocktrades.service;
 
 import java.util.List;
 import java.util.Optional;
 
-import com.hackerrank.stocktrades.model.StockTrade;
-import com.hackerrank.stocktrades.repository.StockTradeRepository;
+import com.gl.stocktrades.model.StockTrade;
+import com.gl.stocktrades.repository.StockTradeRepository;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
