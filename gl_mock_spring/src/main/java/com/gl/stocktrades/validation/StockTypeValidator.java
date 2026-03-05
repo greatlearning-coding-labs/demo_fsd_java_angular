@@ -1,4 +1,4 @@
-package com.hackerrank.stocktrades.validation;
+package com.gl.stocktrades.validation;
 
 import javax.validation.ConstraintValidator;
 import javax.validation.ConstraintValidatorContext;
