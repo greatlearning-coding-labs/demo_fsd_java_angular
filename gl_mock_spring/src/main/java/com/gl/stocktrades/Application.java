@@ -1,4 +1,4 @@
-package com.hackerrank.stocktrades;
+package com.gl.stocktrades;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
